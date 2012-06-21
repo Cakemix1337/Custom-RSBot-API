@@ -11,7 +11,7 @@ import org.powerbot.game.api.wrappers.widget.WidgetChild;
  * @author Cakemix
  * 
  */
-public enum Lonestone {
+public enum Lodestone {
 	BANDIT_CAMP(7),
 	LUNAR_ISLE(39),
 	AL_KHARID(40),
@@ -30,7 +30,7 @@ public enum Lonestone {
 
 	private final int currentLodeStone;
 
-	Lonestone(int currentLodeStone) {
+	Lodestone(int currentLodeStone) {
 		this.currentLodeStone = currentLodeStone;
 	}
 
