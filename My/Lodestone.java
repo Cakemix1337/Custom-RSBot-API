@@ -76,8 +76,6 @@ public enum Lodestone {
 			if (!widget.validate() && !widget.visible())
 				return false;
 
-			System.out.println(Widgets.get(WIDGET, WIDGET_CHECK).getText().contains("is not yet active"));
-
 			if (widget.getText().toLowerCase().startsWith(toString().toLowerCase().substring(0, 4).replace("_", " ")))
 				return !Widgets.get(WIDGET, WIDGET_CHECK_TEXT).getText().contains("is not yet active");
 		}
